@@ -1,0 +1,41 @@
+@import url("/fonts/peugeot-new-cyrillic/stylesheet.css");
+
+@import url("/css/header.css");
+@import url("/css/footer.css");
+
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+  font-family: 'Peugeot New Cyrillic';
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.containerMain {
+  padding: 0 120px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  background-color: inherit;
+  border: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}

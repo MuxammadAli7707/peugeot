@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'Peugeot New Cyrillic Ex';
+    src: url('/fonts/peugeot-new-cyrillic/PeugeotNewCyrillic-ExtraLight.woff2') format('woff2'),
+        url('/fonts/peugeot-new-cyrillic/PeugeotNewCyrillic-ExtraLight.woff') format('woff'),
+        url('/fonts/peugeot-new-cyrillic/PeugeotNewCyrillic-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Peugeot New Cyrillic';
+    src: url('/fonts/peugeot-new-cyrillic/PeugeotNewCyrillic-Light.woff2') format('woff2'),
+        url('/fonts/peugeot-new-cyrillic/PeugeotNewCyrillic-Light.woff') format('woff'),
+        url('/fonts/peugeot-new-cyrillic/PeugeotNewCyrillic-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Peugeot New Cyrillic';
+    src: url('/fonts/peugeot-new-cyrillic/PeugeotNewCyrillic-LightItalic.woff2') format('woff2'),
+        url('/fonts/peugeot-new-cyrillic/PeugeotNewCyrillic-LightItalic.woff') format('woff'),
+        url('/fonts/peugeot-new-cyrillic/PeugeotNewCyrillic-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Peugeot New Cyrillic';
+    src: url('/fonts/peugeot-new-cyrillic/PeugeotNewCyrillic-Regular.woff2') format('woff2'),
+        url('/fonts/peugeot-new-cyrillic/PeugeotNewCyrillic-Regular.woff') format('woff'),
+        url('/fonts/peugeot-new-cyrillic/PeugeotNewCyrillic-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Peugeot New Cyrillic';
+    src: url('/fonts/peugeot-new-cyrillic/PeugeotNewCyrillic-Bold.woff2') format('woff2'),
+        url('/fonts/peugeot-new-cyrillic/PeugeotNewCyrillic-Bold.woff') format('woff'),
+        url('/fonts/peugeot-new-cyrillic/PeugeotNewCyrillic-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}

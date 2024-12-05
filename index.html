@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PEUGEOUT</title>
+    <link
+      rel="stylesheet"
+      href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <header class="header" id="header">
+      <div class="header__main">
+        <div class="header__burger-box">
+          <button
+            class="header__burger-btn"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasExample"
+            aria-controls="offcanvasExample"
+          >
+            <img
+              class="header__burger-menu"
+              src="images/icons/burger-menu.svg"
+              alt="burger-menu"
+              width="28"
+              height="28"
+            />
+            <span class="header__burger-text">МЕНЮ</span>
+          </button>
+        </div>
+
+        <div class="header__logo-box">
+          <a class="header__logo-link" href="/">
+            <img
+              class="header__logo"
+              src="images/logo.svg"
+              alt="logo"
+              width="217"
+              height="19"
+            />
+          </a>
+        </div>
+
+        <div class="header__contacts">
+          <a href="tel:+5022507922" class="header__contact-link">
+            <img
+              class="header__contacts-icon"
+              src="images/icons/headphones.svg"
+              alt="headphones-icon"
+              width="25"
+              height="26"
+            />
+            <span class="header__contacts-text">Связаться с нами</span>
+          </a>
+          <a href="#" class="header__contact-location">
+            <img
+              class="header__contacts-icon"
+              src="images/icons/location.svg"
+              alt="location-icon"
+              width="25"
+              height="25"
+            />
+          </a>
+        </div>
+      </div>
+
+      <div
+        class="offcanvas offcanvas-start"
+        tabindex="-1"
+        id="offcanvasExample"
+        aria-labelledby="offcanvasExampleLabel"
+      >
+        <div class="offcanvas-header">
+          <button
+            type="button"
+            class="menu__close-btn"
+            data-bs-dismiss="offcanvas"
+          >
+            <img
+              class="header__burger-menu"
+              src="images/icons/close.svg"
+              alt="close"
+              width="21"
+              height="21"
+            />
+            <span class="header__burger-text" id="offcanvasExampleLabel"
+              >ЗАКРЫТЬ</span
+            >
+          </button>
+        </div>
+
+        <div class="offcanvas-body">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#" class="nav__link">
+                <span class="nav__link-text">главная</span>
+                <img
+                  src="images/icons/arrow-right.svg"
+                  alt="arrow-right"
+                  width="17"
+                  height="15"
+                />
+              </a>
+            </li>
+            <li class="nav__item">
+              <button type="button" id="openModels" class="nav__link">
+                <span class="nav__link-text">Модели</span>
+                <img
+                  src="images/icons/arrow-right.svg"
+                  alt="arrow-right"
+                  width="17"
+                  height="15"
+                />
+              </button>
+            </li>
+
+            <li class="nav__item">
+              <a href="#" class="nav__link">
+                <span class="nav__link-text">О компании</span>
+                <img
+                  src="images/icons/arrow-right.svg"
+                  alt="arrow-right"
+                  width="17"
+                  height="15"
+                />
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">
+                <span class="nav__link-text">коммерческие авто</span>
+                <img
+                  src="images/icons/arrow-right.svg"
+                  alt="arrow-right"
+                  width="17"
+                  height="15"
+                />
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">
+                <span class="nav__link-text">Новости</span>
+                <img
+                  src="images/icons/arrow-right.svg"
+                  alt="arrow-right"
+                  width="17"
+                  height="15"
+                />
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="header__contacts menu__contacts">
+          <a href="tel:+5022507922" class="header__contact-link">
+            <img
+              class="header__contacts-icon"
+              src="images/icons/headphones.svg"
+              alt="headphones-icon"
+              width="25"
+              height="26"
+            />
+            <span class="header__contacts-text">Связаться с нами</span>
+          </a>
+          <a href="#" class="header__contact-link">
+            <img
+              class="header__contacts-icon"
+              src="images/icons/location.svg"
+              alt="location-icon"
+              width="25"
+              height="25"
+            />
+            <span class="header__contacts-text">Локация шоурума</span>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <div class="contacts__box">
+      <a href="tel:+5022507922" class="contacts__link">
+        <img
+          class="contacts__icon"
+          src="images/icons/headphones-white.svg"
+          alt="headphones-icon"
+          width="25"
+          height="26"
+        />
+        <span class="contacts__text">Связаться с нами</span>
+      </a>
+      <a href="#" class="contacts__link">
+        <img
+          class="contacts__icon"
+          src="images/icons/location-white.svg"
+          alt="location-icon"
+          width="25"
+          height="25"
+        />
+        <span class="contacts__text">Найти дилера</span>
+      </a>
+    </div>
+
+    <footer class="footer">
+      <div class="containerMain">
+        <div class="footer__nav-wrapper">
+          <div class="footer__nav-box">
+            <h3 class="footer__nav-title">НАВИГАЦИЯ</h3>
+            <ul class="footer__nav-list">
+              <li class="footer__nav-item">
+                <a href="#" class="footer__nav-link">Главная</a>
+              </li>
+              <li class="footer__nav-item">
+                <a href="#" class="footer__nav-link">О компании</a>
+              </li>
+              <li class="footer__nav-item">
+                <a href="#" class="footer__nav-link">Новостной блог</a>
+              </li>
+              <li class="footer__nav-item">
+                <a href="#" class="footer__nav-link">Модельный ряд</a>
+              </li>
+              <li class="footer__nav-item">
+                <a href="#" class="footer__nav-link">Связаться с нами</a>
+              </li>
+              <li class="footer__nav-item">
+                <a href="#" class="footer__nav-link">Публичная оферта</a>
+              </li>
+              <li class="footer__nav-item">
+                <a href="#" class="footer__nav-link"
+                  >Политика конфиденциальности</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer__nav-box">
+            <h3 class="footer__nav-title">МОДЕЛЬНЫЙ РЯД</h3>
+            <ul class="footer__nav-list">
+              <li class="footer__nav-item">
+                <a href="#" class="footer__nav-link">Peugeot 2008</a>
+              </li>
+              <li class="footer__nav-item">
+                <a href="#" class="footer__nav-link">Peugeot 408</a>
+              </li>
+              <li class="footer__nav-item">
+                <a href="#" class="footer__nav-link">Peugeot 508</a>
+              </li>
+              <li class="footer__nav-item">
+                <a href="#" class="footer__nav-link">Peugeot Boxer</a>
+              </li>
+              <li class="footer__nav-item">
+                <a href="#" class="footer__nav-link">Peugeot Expert</a>
+              </li>
+              <li class="footer__nav-item">
+                <a href="#" class="footer__nav-link">Peugeot Partner</a>
+              </li>
+              <li class="footer__nav-item">
+                <a href="#" class="footer__nav-link">Peugeot Traveller</a>
+              </li>
+              <li class="footer__nav-item">
+                <a href="#" class="footer__nav-link">Peugeot Rifter</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer__nav-box">
+            <h3 class="footer__nav-title">НАШИ УСЛУГИ</h3>
+            <ul class="footer__nav-list">
+              <li class="footer__nav-item">
+                <a href="#" class="footer__nav-link"
+                  >Записаться на тест-драйв</a
+                >
+              </li>
+              <li class="footer__nav-item">
+                <a href="#" class="footer__nav-link">Сервисный центр</a>
+              </li>
+              <li class="footer__nav-item">
+                <a href="#" class="footer__nav-link">Запасные части</a>
+              </li>
+              <li class="footer__nav-item">
+                <a href="#" class="footer__nav-link">Шоурум</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer__nav-box">
+            <h3 class="footer__nav-title">КОНТАКТЫ</h3>
+            <ul class="footer__nav-list">
+              <li class="footer__nav-contact">
+                <span class="footer__nav-text">Горячая линия</span>
+                <a href="tel: +998 71 777-77-70" class="footer__nav-contact"
+                  >+998 71 777-77-70</a
+                >
+              </li>
+              <li class="footer__nav-contact">
+                <span class="footer__nav-text">Электронная почта</span>
+                <a href="#" class="footer__nav-contact">hello@peugeot.uz</a>
+              </li>
+              <li class="footer__nav-contact">
+                <span class="footer__nav-text">Адрес</span>
+                <a href="#" class="footer__nav-contact"
+                  >Nurafshon 54, Tashkent</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer__bottom">
+          <div class="footer__social-box">
+            <ul class="footer__social-list">
+              <li class="footer__social-item">
+                <a href="#" class="footer__social-icon">
+                  <img
+                    class="header__logo"
+                    src="images/icons/instagram.svg"
+                    alt="logo"
+                    width="34"
+                    height="32"
+                  />
+                </a>
+              </li>
+              <li class="footer__social-item">
+                <a href="#" class="footer__social-icon">
+                  <img
+                    class="header__logo"
+                    src="images/icons/facebook.svg"
+                    alt="logo"
+                    width="34"
+                    height="32"
+                  />
+                </a>
+              </li>
+              <li class="footer__social-item">
+                <a href="#" class="footer__social-icon">
+                  <img
+                    class="header__logo"
+                    src="images/icons/x-social.svg"
+                    alt="logo"
+                    width="34"
+                    height="32"
+                  />
+                </a>
+              </li>
+              <li class="footer__social-item">
+                <a href="#" class="footer__social-icon">
+                  <img
+                    class="header__logo"
+                    src="images/icons/youtube.svg"
+                    alt="logo"
+                    width="34"
+                    height="32"
+                  />
+                </a>
+              </li>
+            </ul>
+            <p class="company__name">ООО «Sarda Auto PGCA»</p>
+          </div>
+          <a href="/" class="footer__logo-link">
+            <img
+              class="footer__logo"
+              src="images/footer-logo.svg"
+              alt="logo"
+              width="56"
+              height="62"
+            />
+          </a>
+          <p>⚡Разработано iCORP</p>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

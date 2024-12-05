@@ -1,0 +1,139 @@
+.header {
+  background-color: #fff;
+  padding: 19px 50px;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  transition: box-shadow 0.3s ease;
+}
+
+.back_change {
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.header__main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__burger-box {
+  width: 100%;
+  max-width: 224px;
+}
+
+.header__burger-btn {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.header__burger-menu {
+  object-fit: cover;
+}
+
+.header__burger-text {
+  font-size: 11px;
+  font-weight: 400;
+  color: #000;
+  letter-spacing: 3.2px;
+  text-transform: uppercase;
+  line-height: normal;
+  position: relative;
+  top: 1px;
+}
+
+.header__logo-box {
+  display: flex;
+}
+
+.header__logo-link {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.header__logo {
+  object-fit: cover;
+}
+
+.header__contacts {
+  display: flex;
+  gap: 40px;
+}
+
+
+.header__contact-link {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  gap: 19px;
+}
+
+.header__contact-location {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.header__contacts-text {
+  font-weight: 400;
+  font-size: 11px;
+  line-height: normal;
+  color: #000;
+}
+
+.offcanvas.offcanvas-start {
+  width: 537px;
+  padding: 19px 50px 70px;
+}
+
+.offcanvas-header {
+  padding: 0;
+}
+
+.menu__close-btn {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.menu__contacts {
+  flex-direction: column;
+  gap: 20px;
+}
+
+.offcanvas-body {
+  padding: 0;
+  overflow-y: initial;
+  margin-top: 80px;
+}
+
+.nav__list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.nav__item {
+  border-bottom: 1px solid #B7B7B7;
+  padding-bottom: 20px;
+}
+
+.nav__link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.nav__link-text {
+  font-size: 16px;
+  line-height: normal;
+  font-weight: 400;
+  text-transform: uppercase;
+}

@@ -29,12 +29,14 @@
   background-color: #010101;
   border-top: 1px solid #979797;
   padding-top: 80px;
+  padding-bottom: 45px;
   flex-grow: 1;
 }
 
 .footer__nav-wrapper {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 100px;
 }
 
 .footer__nav-box {
@@ -48,14 +50,14 @@
   font-weight: 400;
   text-transform: uppercase;
   color: #fff;
-  line-height: normal;
+  line-height: 23px;
   margin: 0;
 }
 
 .footer__nav-list {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 15px;
 }
 
 .footer__nav-item {
@@ -65,24 +67,70 @@
 .footer__nav-link {
   font-size: 14px;
   font-weight: 400;
-  color: #A3A3A3;
+  color: #ffffffcc;
+  line-height: 23px;
   max-width: 228px;
 }
 
 .footer__nav-contact {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 4px;
 }
 
 .footer__nav-text {
   font-size: 11px;
   font-weight: 400;
-  color: #A3A3A3;
+  color: #ffffff99;
+  line-height: 23px;
 }
 
 .footer__nav-contact {
   font-size: 14px;
   font-weight: 400;
   color: #fff;
+  line-height: 23px;
+}
+
+.footer__bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer__social-box {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.footer__social-list {
+  display: flex;
+  gap: 12px;
+}
+
+.footer__social-icon {
+  display: flex;
+}
+
+.footer__social-logo {
+  object-fit: contain;
+}
+
+.footer__logo-link {
+  position: relative;
+  right: 10px;
+}
+
+.company__name {
+  font-size: 12px;
+  font-weight: 400;
+  color: #ffffff80;
+  line-height: 23px;
+}
+
+.icorp__link {
+  font-size: 11px;
+  font-weight: 400;
+  color: #fff;
+  line-height: 23px;
 }

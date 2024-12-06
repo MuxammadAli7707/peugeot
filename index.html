@@ -15,6 +15,10 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="css/style.css" />
   </head>
 
@@ -162,7 +166,11 @@
         </div>
 
         <div class="header__contacts menu__contacts">
-          <a href="tel:+5022507922" class="header__contact-link">
+          <a
+            href="tel:+5022507922"
+            class="header__contact-link"
+            target="_blank"
+          >
             <img
               class="header__contacts-icon"
               src="images/icons/headphones.svg"
@@ -172,7 +180,11 @@
             />
             <span class="header__contacts-text">Связаться с нами</span>
           </a>
-          <a href="#" class="header__contact-link">
+          <a
+            href="https://www.google.com/maps/place/41.341261,69.247090/data=!4m6!3m5!1s0!7e2!8m2!3d41.3412608!4d69.24709039999999?utm_source=mstt_1&entry=gps&coh=192189&g_ep=CAESBzI0LjQ3LjQYACD67A0qfiw5NDI0MjUyMyw5NDIyMzI5OSw5NDIxNjQxMyw5NDIxMjQ5Niw5NDIwNzM5NCw5NDIwNzUwNiw5NDIwODUwNiw5NDIxNzUyMyw5NDIxODY1Myw5NDIyOTgzOSw5NDIzOTEyNyw0NzA4NzExOCw0NzA4NDM5Myw5NDIxMzIwMEICVVo%3D"
+            class="header__contact-link"
+            target="_blank"
+          >
             <img
               class="header__contacts-icon"
               src="images/icons/location.svg"
@@ -185,29 +197,279 @@
         </div>
       </div>
     </header>
+    <div class="slider">
+      <swiper-container
+        class="swiper__container"
+        loop="true"
+        navigation="true"
+        pagination="true"
+        pagination-type="fraction"
+        pagination-clickable="true"
+      >
+        <swiper-slide class="swiper__slide-one">
+          <div class="containerMain">
+            <div class="slider__wrapper-one">
+              <div class="slider__inner-one">
+                <div class="slider__info-one">
+                  <span class="slider__subtitle">НОВЫЙ</span
+                  ><span class="slider__title-one"> </span
+                  ><span class="slider__title-one">PEUGEOT 408</span>
+                </div>
+                <p class="slider__text-one">Язык привлекательности</p>
+              </div>
+              <a href="#" class="slider__link">Подробнее</a>
+            </div>
+          </div>
+        </swiper-slide>
 
-    <div class="contacts__box">
-      <a href="tel:+5022507922" class="contacts__link">
-        <img
-          class="contacts__icon"
-          src="images/icons/headphones-white.svg"
-          alt="headphones-icon"
-          width="25"
-          height="26"
-        />
-        <span class="contacts__text">Связаться с нами</span>
-      </a>
-      <a href="#" class="contacts__link">
-        <img
-          class="contacts__icon"
-          src="images/icons/location-white.svg"
-          alt="location-icon"
-          width="25"
-          height="25"
-        />
-        <span class="contacts__text">Найти дилера</span>
-      </a>
+        <swiper-slide class="swiper__slide-two">
+          <div class="containerMain">
+            <div class="slider__wrapper-two">
+              <div class="slider__inner-two">
+                <div class="slider__info-two">
+                  <span class="slider__subtitle">НОВЫЙ</span
+                  ><span class="slider__title-two"> </span
+                  ><span class="slider__title-two">PEUGEOT 508</span>
+                </div>
+                <p class="slider__text-two">
+                  Очарование, рожденное для вождения
+                </p>
+              </div>
+              <a href="#" class="slider__link">Подробнее</a>
+            </div>
+          </div>
+        </swiper-slide>
+
+        <swiper-slide class="swiper__slide-three">
+          <div class="containerMain">
+            <div class="slider__wrapper-three">
+              <div class="slider__inner-three">
+                <span class="slider__title-three"
+                  >PEUGEOT ДЛЯ ВАШГО БИЗНЕСА</span
+                >
+                <p class="slider__text-three">
+                  Проверенное европейское качество
+                </p>
+              </div>
+              <a href="#" class="slider__link">Подробнее</a>
+            </div>
+          </div>
+        </swiper-slide>
+      </swiper-container>
     </div>
+    <main>
+      <section class="services">
+        <div class="containerMain">
+          <div class="services__wrapper">
+            <div class="services__inner">
+              <span class="services__blog">Для тех, кто ценит качество</span>
+              <h3 class="services__title">Предлагаемые услуги</h3>
+            </div>
+
+            <ul class="services__list">
+              <li class="services__item">
+                <img
+                  class="services__img"
+                  src="images/servicesMain/test-drive.png"
+                  alt="services-image"
+                  width="118"
+                  height="118"
+                />
+
+                <div class="services__desc">
+                  <h4 class="services__item-title">ТЕСТ-ДРАЙВ</h4>
+                  <p class="services__text">
+                    Попробуйте почувствовать вашу будущую машину
+                  </p>
+                </div>
+
+                <a href="#" class="services__link">Записаться на тест-драйв</a>
+              </li>
+              <li class="services__item">
+                <img
+                  class="services__img"
+                  src="images/servicesMain/repairing-service.png"
+                  alt="services-image"
+                  width="100"
+                  height="117"
+                />
+
+                <div class="services__desc">
+                  <h4 class="services__item-title">СЕРВИСНЫЙ ЦЕНТР</h4>
+                  <p class="services__text">
+                    Оказываем тех-обслуживание вашего автомобиля Peugeot
+                  </p>
+                </div>
+
+                <a href="#" class="services__link">Записаться на сервис</a>
+              </li>
+              <li class="services__item">
+                <img
+                  class="services__img"
+                  src="images/servicesMain/disc-brake.png"
+                  alt="services-image"
+                  width="104"
+                  height="115"
+                />
+
+                <div class="services__desc">
+                  <h4 class="services__item-title">ЗАПАСНЫЕ ЧАСТИ</h4>
+                  <p class="services__text">
+                    Закажите необходимые детали для вашего автомобиля Peugeot
+                  </p>
+                </div>
+
+                <a href="#" class="services__link">Сделать заказ</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="news">
+        <div class="containerMain">
+          <div class="news__wrapper">
+            <div class="news__inner">
+              <span class="news__blog">Наш блог</span>
+              <h3 class="news__title">Последние новости</h3>
+            </div>
+
+            <ul class="news__list">
+              <li class="news__item">
+                <a href="#" class="news__link">
+                  <img
+                    class="news__img"
+                    src="images/newsMain/headlight.png"
+                    alt="news-image"
+                    width="417"
+                    height="256"
+                  />
+                </a>
+                <div class="news__desc">
+                  <h4 class="news__item-title">
+                    PEUGEOT ОБНОВИЛ ЗАДНИЕ ФАРЫ 408
+                  </h4>
+                  <p class="news__text">
+                    Привлекательный внешний вид, бросающийся в глаза с первого
+                    взгляда. Постоянно обновляемый опыт вождения. Год за годом
+                    модельный ряд PEUGEOT покоряет сердцо клиентов с
+                    элегантностью интерьера и красотой экстерьера.
+                  </p>
+                </div>
+
+                <div class="news__date-box">
+                  <img
+                    class="news__date-icon"
+                    src="images/icons/clock.svg"
+                    alt="clock-icon"
+                    width="16"
+                    height="17"
+                  />
+                  <span class="news__date">24.07.2023</span>
+                </div>
+              </li>
+
+              <li class="news__item">
+                <a href="#" class="news__link">
+                  <img
+                    class="news__img"
+                    src="images/newsMain/racing.png"
+                    alt="news-image"
+                    width="417"
+                    height="256"
+                  />
+                </a>
+                <div class="news__desc">
+                  <h4 class="news__item-title">
+                    КОМАНДА PEUGEOT ВЫИГРАЛА ГОНКУ В ЛЕ-МАНЕ 2024 ГОДА
+                  </h4>
+                  <p class="news__text">
+                    Привлекательный внешний вид, бросающийся в глаза с первого
+                    взгляда. Постоянно обновляемый опыт вождения. Год за годом
+                    модельный ряд PEUGEOT покоряет сердцо клиентов с
+                    элегантностью интерьера и красотой экстерьера.
+                  </p>
+                </div>
+
+                <div class="news__date-box">
+                  <img
+                    class="news__date-icon"
+                    src="images/icons/clock.svg"
+                    alt="clock-icon"
+                    width="16"
+                    height="17"
+                  />
+                  <span class="news__date">24.07.2023</span>
+                </div>
+              </li>
+
+              <li class="news__item">
+                <a href="#" class="news__link">
+                  <img
+                    class="news__img"
+                    src="images/newsMain/new-508.png"
+                    alt="news-image"
+                    width="417"
+                    height="256"
+                  />
+                </a>
+                <div class="news__desc">
+                  <h4 class="news__item-title">
+                    PEUGEOT ПРЕДСТАВИЛА СПОРТИВНУЮ ВЕРСИЮ НОВОЙ 508
+                  </h4>
+                  <p class="news__text">
+                    Привлекательный внешний вид, бросающийся в глаза с первого
+                    взгляда. Постоянно обновляемый опыт вождения. Год за годом
+                    модельный ряд PEUGEOT покоряет сердцо клиентов с
+                    элегантностью интерьера и красотой экстерьера.
+                  </p>
+                </div>
+
+                <div class="news__date-box">
+                  <img
+                    class="news__date-icon"
+                    src="images/icons/clock.svg"
+                    alt="clock-icon"
+                    width="16"
+                    height="17"
+                  />
+                  <span class="news__date">24.07.2023</span>
+                </div>
+              </li>
+            </ul>
+
+            <a href="#" class="other__news-link">Смотреть все новости</a>
+          </div>
+        </div>
+      </section>
+
+      <div class="contacts__box">
+        <a href="tel:+5022507922" class="contacts__link" target="_blank">
+          <img
+            class="contacts__icon"
+            src="images/icons/headphones-white.svg"
+            alt="headphones-icon"
+            width="25"
+            height="26"
+          />
+          <span class="contacts__text">Связаться с нами</span>
+        </a>
+        <a
+          href="https://yandex.uz/maps/10335/tashkent/?ll=69.247526%2C41.341167&mode=whatshere&utm_source=share&whatshere%5Bpoint%5D=69.247658%2C41.341213&whatshere%5Bzoom%5D=17&z=20"
+          target="_blank"
+          class="contacts__link"
+        >
+          <img
+            class="contacts__icon"
+            src="images/icons/location-white.svg"
+            alt="location-icon"
+            width="25"
+            height="25"
+          />
+          <span class="contacts__text">Найти дилера</span>
+        </a>
+      </div>
+    </main>
 
     <footer class="footer">
       <div class="containerMain">
@@ -286,7 +548,12 @@
                 <a href="#" class="footer__nav-link">Запасные части</a>
               </li>
               <li class="footer__nav-item">
-                <a href="#" class="footer__nav-link">Шоурум</a>
+                <a
+                  href="https://www.google.com/maps/place/41.341261,69.247090/data=!4m6!3m5!1s0!7e2!8m2!3d41.3412608!4d69.24709039999999?utm_source=mstt_1&entry=gps&coh=192189&g_ep=CAESBzI0LjQ3LjQYACD67A0qfiw5NDI0MjUyMyw5NDIyMzI5OSw5NDIxNjQxMyw5NDIxMjQ5Niw5NDIwNzM5NCw5NDIwNzUwNiw5NDIwODUwNiw5NDIxNzUyMyw5NDIxODY1Myw5NDIyOTgzOSw5NDIzOTEyNyw0NzA4NzExOCw0NzA4NDM5Myw5NDIxMzIwMEICVVo%3D"
+                  target="_blank"
+                  class="footer__nav-link"
+                  >Шоурум</a
+                >
               </li>
             </ul>
           </div>
@@ -320,9 +587,9 @@
               <li class="footer__social-item">
                 <a href="#" class="footer__social-icon">
                   <img
-                    class="header__logo"
+                    class="footer__social-logo"
                     src="images/icons/instagram.svg"
-                    alt="logo"
+                    alt="social-logo"
                     width="34"
                     height="32"
                   />
@@ -331,9 +598,9 @@
               <li class="footer__social-item">
                 <a href="#" class="footer__social-icon">
                   <img
-                    class="header__logo"
+                    class="footer__social-logo"
                     src="images/icons/facebook.svg"
-                    alt="logo"
+                    alt="social-logo"
                     width="34"
                     height="32"
                   />
@@ -342,9 +609,9 @@
               <li class="footer__social-item">
                 <a href="#" class="footer__social-icon">
                   <img
-                    class="header__logo"
+                    class="footer__social-logo"
                     src="images/icons/x-social.svg"
-                    alt="logo"
+                    alt="social-logo"
                     width="34"
                     height="32"
                   />
@@ -353,17 +620,18 @@
               <li class="footer__social-item">
                 <a href="#" class="footer__social-icon">
                   <img
-                    class="header__logo"
+                    class="footer__social-logo"
                     src="images/icons/youtube.svg"
-                    alt="logo"
+                    alt="social-logo"
                     width="34"
                     height="32"
                   />
                 </a>
               </li>
             </ul>
-            <p class="company__name">ООО «Sarda Auto PGCA»</p>
+            <span class="company__name">ООО «Sarda Auto PGCA»</span>
           </div>
+
           <a href="/" class="footer__logo-link">
             <img
               class="footer__logo"
@@ -373,7 +641,10 @@
               height="62"
             />
           </a>
-          <p>⚡Разработано iCORP</p>
+
+          <a href="https://icorp.uz/web" target="_blank" class="icorp__link"
+            >⚡Разработано iCORP</a
+          >
         </div>
       </div>
     </footer>
@@ -388,6 +659,7 @@
       integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
       crossorigin="anonymous"
     ></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>
